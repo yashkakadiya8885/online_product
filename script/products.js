@@ -34,7 +34,7 @@ let show = (data) => {
           }
         });
         if (!exists) {
-          cart.push({ ...ele, qty: 1 });
+          cart.push({ ...ele, qty: 2 });
           localStorage.setItem("cart", JSON.stringify(cart));
           alert("added to cart");
         }
