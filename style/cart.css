@@ -14,7 +14,7 @@ body {
     z-index: 999;
 }
 #nav p {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 20px;
     color: #fff;
 }
@@ -76,30 +76,63 @@ button.remove {
 }
 div#cart {
     padding: 70px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     text-align: center;
 }
-#cart div{
-    border: 1px solid black;
-}
+
 p.pricess {
     margin: 52px;
     font-size: 25px;
 }
-button{
-    width: 30px;
+.warapper button{
+    width: 45px;
     padding: 5px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 100%;
     margin-left: 5px;
     background-color: rgb(108, 108, 108);
     color: #fff;
     border: 0px;
 }
+.maindiv {
+    margin-top: 50px;
+}
 .cart{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.warapper{
+    display: flex;
+    text-align: center;
+    width: 100;
+    justify-content: center;
+
+}
+.warapper p{
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.image{
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.maindiv{
+    display: flex;
+}
+.pri{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.text{
+    display: block;
+    width: 500px;
+}
+.warapper p{
+    margin-top: 6px;
+    margin-left: 6px;
 }
